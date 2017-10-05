@@ -17,7 +17,7 @@ You can view/explore/fork these instances here:
 
 and you can read the docs here: https://github.com/OurDigitalWorld/supplejack-ember/wiki
 
-This collection also includes a parser template, and a code snippet for reuse in specific parsers. Also include is the record_schema.rb we use for these parsers
+This collection also includes a parser template, and a code snippet for reuse in specific parsers. Also included is the record_schema.rb we use for these parsers
 
 Note: some of the parsers reference metadata files rather than OAI endpoints. If you want to download or access these files they are located at http://eln-sj4.is.sfu.ca/data
 
