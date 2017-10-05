@@ -4,7 +4,7 @@
 
 class VIUyoutube < SupplejackCommon::Json::Base
   
-  base_url "http://138.197.159.14/data/viuArtHum.json"
+  base_url "http://eln-sj4.is.sfu.ca/data/viuArtHum.json"
   
   #NOTE: Supplejack isn't currently able to handle non-incremental page changes
   #so we combine the pages in a file.

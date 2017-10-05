@@ -1,6 +1,6 @@
 class NorthArch < SupplejackCommon::Xml::Base
 
-  base_url "http://138.197.159.14/data/NorthernArches.xml"
+  base_url "http://eln-sj4.is.sfu.ca/data/NorthernArches.xml"
 
   #UNBC's AtoM instance doesn't allow for EAD over OAI (it's coming in a new release) so we have built an xml file by grepping and wgetting . . . 
   

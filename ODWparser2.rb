@@ -1,7 +1,7 @@
 class ODWparser2 < SupplejackCommon::Xml::Base
 
     
-  base_url "http://138.197.159.14/data/MHGLtemp.xml"
+  base_url "http://eln-sj4.is.sfu.ca/data/MHGLtemp.xml"
   
   #No OAI for this VITA instance. Walter Lewis at ODW was kind enough to give us an xml file 
   

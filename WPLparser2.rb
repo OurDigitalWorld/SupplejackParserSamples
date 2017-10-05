@@ -2,7 +2,7 @@ class WPLparser2 < SupplejackCommon::Xml::Base
 
   
       
-  base_url "http://138.197.159.14/data/WestVanPub.xml"
+  base_url "http://eln-sj4.is.sfu.ca/data/WestVanPub.xml"
   
   #No OAI for this VITA instance. Walter Lewis at ODW was kind enough to give us an xml file 
 

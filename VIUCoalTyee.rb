@@ -1,6 +1,6 @@
 class VIUCoalTyee < SupplejackCommon::Xml::Base
   
-  base_url "http://138.197.159.14/data/CoalTyee.xml"
+  base_url "http://eln-sj4.is.sfu.ca/data/CoalTyee.xml"
 
   #we build a file so we can easily isolate this single collection that uses lat/long coordinates instead of Geonames URIs
   

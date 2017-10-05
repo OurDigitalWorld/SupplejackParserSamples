@@ -1,7 +1,7 @@
 
 class ROMYouTube < SupplejackCommon::Json::Base
   
-    base_url "http://138.197.159.14/data/ROM.json"
+    base_url "http://eln-sj4.is.sfu.ca/data/ROM.json"
   
   #NOTE: Supplejack isn't currently able to handle non-incremental page changes, so we built an xml file of ~400 items
 

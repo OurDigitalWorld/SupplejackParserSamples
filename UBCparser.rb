@@ -1,7 +1,7 @@
 class UBCparser < SupplejackCommon::Json::Base
   
   
-  base_url "http://138.197.159.14/data/ubcAgain.json"
+  base_url "http://eln-sj4.is.sfu.ca/data/ubcAgain.json"
   
  #we build a json file using the UBC Open Collections API - an awesome experience!
   

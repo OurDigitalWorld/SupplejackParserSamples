@@ -1,7 +1,7 @@
 class VagVimeo2 < SupplejackCommon::Xml::Base
   
   
-  base_url "http://138.197.159.14/data/vagVimeo.xml"
+  base_url "http://eln-sj4.is.sfu.ca/data/vagVimeo.xml"
   #we build an xml file from the Vimeo RSS feed
   
   record_selector "//item" 

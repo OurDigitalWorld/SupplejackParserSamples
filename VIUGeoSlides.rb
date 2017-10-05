@@ -2,7 +2,7 @@
 class VIUGeoSlides < SupplejackCommon::Xml::Base
   
   
-  base_url "http://138.197.159.14/data/440.xml"
+  base_url "http://eln-sj4.is.sfu.ca/data/440.xml"
 
   #we build a file so we can easily isolate this collection that uses Geonames URIs instead of lat/long coordinates
 
