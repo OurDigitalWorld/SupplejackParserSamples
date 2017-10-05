@@ -19,6 +19,6 @@ and you can read the docs here: https://github.com/OurDigitalWorld/supplejack-em
 
 This collection also includes a parser template, and a code snippet for reuse in specific parsers.
 
-Note: some of the parsers reference metadata files rather than OAI endpoints. If you want to download or access these files they are located at http://enl-sj4.is.sfu.ca/data
+Note: some of the parsers reference metadata files rather than OAI endpoints. If you want to download or access these files they are located at http://eln-sj4.is.sfu.ca/data
 
 
