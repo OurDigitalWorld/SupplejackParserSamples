@@ -1,8 +1,6 @@
 class DigitalNZ < SupplejackCommon::Json::Base
 
   
-
-  
   base_url "http://api.digitalnz.org/v3/records.json?api_key=YOUR-KEY-HERE&fields=title,display_content_partner,creator,landing_url,source_url,thumbnail_url,subject,rights,category,description,id,date,publisher,language,locations&geo_bbox=-41,174,-42,175&text=horse"
   
 
@@ -25,15 +23,9 @@ class DigitalNZ < SupplejackCommon::Json::Base
   attribute :display_date, path: "$.date", truncate: {length: 4, omission: ""}
   
    
-  
+
  attribute :locations, path: "$.locations"
 
-
-  
-  
-  
-  
-  
   
   
 end
