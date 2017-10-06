@@ -1,4 +1,3 @@
-  
 #arcaMapper - code snippet (don't forget to stage it)
   attribute :display_content_partner do
     partner = fetch('/record/header/identifier').split('.').first.split(':').last
