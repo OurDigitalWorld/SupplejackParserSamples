@@ -20,9 +20,6 @@ class TrinityWesternLibrary < SupplejackCommon::Oai::Base
 	
 	include_snippet "ArcaMapper"
 	
-  
-  
-	
 	#dynamics
 	
 	attributes :title, xpath: "//mods:title"
@@ -87,7 +84,6 @@ end
     compose("http://twu.arcabc.ca/islandora/object/", get(:thing3))
 end
   
-  #---
   
   attribute :source_url do get :landing_url 
   end
