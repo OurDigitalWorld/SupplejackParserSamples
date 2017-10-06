@@ -1,9 +1,9 @@
+#edcartoons_collection
 
-#vanpunk-1_collection
+class SFULibraryEc < SupplejackCommon::Xml::Base
 
-class SFULibrary < SupplejackCommon::Xml::Base
   
- base_url "http://eln-sj4.is.sfu.ca/data/sfu2.xml"
+ base_url "http://eln-sj4.is.sfu.ca/data/sfu3.xml"
 
  namespaces dc:"http://purl.org/dc/elements/1.1/"
   
@@ -45,7 +45,7 @@ class SFULibrary < SupplejackCommon::Xml::Base
 
 
   
-  attributes :language, xpath: "//dc:language"
+  attributes :language, xpath: "//dc:language",  mappings: {'English' => 'en'}
   
   attributes :rights, xpath: "//dc:rights"
 
@@ -57,7 +57,7 @@ class SFULibrary < SupplejackCommon::Xml::Base
     get(:ID1).select(:first)
 end
   
-  attributes :subject, default: "Punk rock music--British Columbia" 
+  attributes :subject, xpath: "//dc:subject"
 
   
 attribute :landing_url do
@@ -85,16 +85,7 @@ end
     get(:landing_url).downcase
    
   end
-  
-
-
-  
-  
-
-  
-  
-  
-  
+    
   
   
 end

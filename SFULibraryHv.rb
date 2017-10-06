@@ -1,10 +1,8 @@
-
 #hiv_collection
 
-class SFULibrary < SupplejackCommon::Xml::Base
+class SFULibraryHv < SupplejackCommon::Xml::Base
 
-  
- base_url "http://eln-sj4.is.sfu.ca/data/sfu.xml"
+base_url "http://eln-sj4.is.sfu.ca/data/sfu.xml"
 
  namespaces dc:"http://purl.org/dc/elements/1.1/"
   
@@ -86,7 +84,5 @@ end
     get(:landing_url).downcase
    
   end
-  
  
-  
 end
