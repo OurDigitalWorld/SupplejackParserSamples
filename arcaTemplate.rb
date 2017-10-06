@@ -1,10 +1,7 @@
 base_url "http://YOUR-REPO-HERE.arcabc.ca/oai2"
 
       # capu, cc cotr, dc, ecuad, jibc, kpu, nwcc, sc, tru, twu, unbc, ufv 
-      
-
-
-
+     
   
 #statics
 
