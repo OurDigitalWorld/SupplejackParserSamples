@@ -35,7 +35,6 @@ class SFULibraryVp < SupplejackCommon::Xml::Base
   attribute :display_date, xpath: "//dc:date", truncate: {length: 4, omission: ""}
 
  
-
   
   attribute :creator, xpath: "//dc:creator" do 
     get(:creator).join(' ; ')
