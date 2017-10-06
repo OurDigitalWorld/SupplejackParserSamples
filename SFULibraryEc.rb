@@ -21,7 +21,7 @@ class SFULibraryEc < SupplejackCommon::Xml::Base
   attributes :title, xpath: "//dc:title"
   
   
-  
+
  
   #gets first dc:description field  
   attribute :description, xpath: "//dc:description", truncate: 170
@@ -32,12 +32,9 @@ class SFULibraryEc < SupplejackCommon::Xml::Base
   end
   
 
-
   attribute :display_date, xpath: "//dc:date", truncate: {length: 4, omission: ""}
 
  
-
-  
   attribute :creator, xpath: "//dc:creator" do 
     get(:creator).join(' ; ')
     
