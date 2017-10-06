@@ -1,13 +1,10 @@
 class UBCICYouTube < SupplejackCommon::Json::Base
   
-  
-  
       base_url "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UC-RRZHXSHyYiIP8RLHSKlWw&key=YOUR-KEY-HERE&maxResults=50"
   record_selector "$.items"
   
   #NOTE: Supplejack isn't currently able to handle non-incremental page changes
     
-  
   attributes :jurisdiction, default: "British Columbia"
   #ID
   attribute :internal_identifier do
