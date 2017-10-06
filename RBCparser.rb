@@ -3,8 +3,6 @@ class RBCMuseum < SupplejackCommon::Json::Base
   
   base_url "http://eln-sj4.is.sfu.ca/data/rbcJson.json"
   
-  #https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCd4hq5D943vcOWedfwxn2dA&key=AIzaSyDxtV6CVveTXi1yvnwJ6ypmkl2KEeq40_s&maxResults=50
-  #"nextPageToken": "CMIDEAA"
   
   record_selector "$.items"
   
