@@ -3,7 +3,6 @@ class SqPLparser < SupplejackCommon::Xml::Base
    base_url "http://eln-sj4.is.sfu.ca/data/squamish.xml"
 
   
-  
   record_selector "//doc" 
   record_format :xml
   
@@ -42,11 +41,6 @@ class SqPLparser < SupplejackCommon::Xml::Base
     get(:description).first
 
 end
-  
-
-   
-
-
   
 
     
@@ -96,6 +90,4 @@ end
   end
   
   
-  
-
 end
