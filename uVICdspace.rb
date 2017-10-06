@@ -80,12 +80,7 @@ end
   
   attribute :thumbnail_url, default: "https://dspace.library.uvic.ca/themes/Mirage/images/pdf.png"
 
-  
-  #sequence=5 becomes sequence=7 for the thumbs display
 
- #attribute :thumbnail_url, xpath: '//dc:identifier' do
-  # get(:thumbnail_url).find_with('sequence').mapping('sequence=5' => 'sequence=7')
-  #end
   end
   
   
