@@ -34,7 +34,6 @@ base_url "http://eln-sj4.is.sfu.ca/data/sfu.xml"
 
   attribute :display_date, xpath: "//dc:date"  
 
- 
 
   
   attribute :creator, xpath: "//dc:creator" do 
