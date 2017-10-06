@@ -2,7 +2,6 @@
 #vanpunk-1_collection
 
 class SFULibrary < SupplejackCommon::Xml::Base
-
   
  base_url "http://eln-sj4.is.sfu.ca/data/sfu2.xml"
 
